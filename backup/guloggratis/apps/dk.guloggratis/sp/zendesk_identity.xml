@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="zendesk-identity-type">jwt</string>
+    <string name="zendesk-identity">{&quot;token&quot;:&quot;3a6888853a74b166300fc304a8370646d4baf606-android&quot;}</string>
+</map>

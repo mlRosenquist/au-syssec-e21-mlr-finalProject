@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="app_uuid">b9fbfd1e-905b-413d-a9fd-e0df396d6ce2</string>
+    <string name="application_type">App</string>
+    <string name="origin">mobile</string>
+    <string name="google_adid">1f7b16c8-5374-4f02-9255-55ed82108c24</string>
+    <long name="install_referrer_begin_timestamp" value="0" />
+    <string name="visitor_id">e9446ee506114a7693fd6d3625abdb5d</string>
+    <string name="uuid">e9446ee5-0611-4a76-93fd-6d3625abdb5d</string>
+    <string name="platform">android</string>
+    <string name="device_cputype">i686</string>
+    <string name="tealium_visitor_id">e9446ee506114a7693fd6d3625abdb5d</string>
+    <string name="install_referrer">utm_source=google-play&amp;utm_medium=organic</string>
+    <string name="device_resolution">1440x2872</string>
+    <string name="tealium_datasource">234s3t</string>
+    <string name="device">Genymobile Samsung Galaxy S10</string>
+    <long name="install_referrer_click_timestamp" value="0" />
+    <string name="device_architecture">32</string>
+    <string name="device_android_runtime">2.1.0</string>
+</map>

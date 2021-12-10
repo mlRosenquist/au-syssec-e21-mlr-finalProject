@@ -16,5 +16,114 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{android-obfuscation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e84e30b9390cdb64db6db2c9ab87846d}{%
+           family={Android},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{fullhash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{bibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorbibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authornamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorfullhash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 19.12.2021)}
+      \field{title}{Shrink, obfuscate, and optimize your app}
+      \verb{urlraw}
+      \verb https://developer.android.com/studio/build/shrink-code
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/studio/build/shrink-code
+      \endverb
+    \endentry
+    \entry{android-sslsocket}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e84e30b9390cdb64db6db2c9ab87846d}{%
+           family={Android},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{fullhash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{bibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorbibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authornamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorfullhash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 19.12.2021)}
+      \field{title}{SSLSocket}
+      \verb{urlraw}
+      \verb https://developer.android.com/reference/javax/net/ssl/SSLSocket
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/reference/javax/net/ssl/SSLSocket
+      \endverb
+    \endentry
+    \entry{avg-webview-explot}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fcefd647d6a866603c627b11347c707a}{%
+           family={AVG},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcefd647d6a866603c627b11347c707a}
+      \strng{fullhash}{fcefd647d6a866603c627b11347c707a}
+      \strng{bibnamehash}{fcefd647d6a866603c627b11347c707a}
+      \strng{authorbibnamehash}{fcefd647d6a866603c627b11347c707a}
+      \strng{authornamehash}{fcefd647d6a866603c627b11347c707a}
+      \strng{authorfullhash}{fcefd647d6a866603c627b11347c707a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 19.12.2021)}
+      \field{title}{Analyzing an Android WebView Exploit}
+      \verb{urlraw}
+      \verb https://www.avg.com/en/signal/analyzing-an-android-webview-exploit
+      \endverb
+      \verb{url}
+      \verb https://www.avg.com/en/signal/analyzing-an-android-webview-exploit
+      \endverb
+    \endentry
+    \entry{android-certificate-transparency}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e36cd7972aa3acaed2783c3944f1ab83}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e36cd7972aa3acaed2783c3944f1ab83}
+      \strng{fullhash}{e36cd7972aa3acaed2783c3944f1ab83}
+      \strng{bibnamehash}{e36cd7972aa3acaed2783c3944f1ab83}
+      \strng{authorbibnamehash}{e36cd7972aa3acaed2783c3944f1ab83}
+      \strng{authornamehash}{e36cd7972aa3acaed2783c3944f1ab83}
+      \strng{authorfullhash}{e36cd7972aa3acaed2783c3944f1ab83}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 19.12.2021)}
+      \field{title}{Android Security: Certificate Transparency}
+      \verb{urlraw}
+      \verb https://appmattus.medium.com/android-security-certificate-transparency-601c18157c44
+      \endverb
+      \verb{url}
+      \verb https://appmattus.medium.com/android-security-certificate-transparency-601c18157c44
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

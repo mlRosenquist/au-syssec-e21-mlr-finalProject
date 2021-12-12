@@ -1,4 +1,4 @@
-Mobile applications' has the potential of collecting massive amount of data from their users. This can be used to increase user experience but will in worst case lead to intrusive behaviour. Permissions is a great place to see if something is out of the ordinary. Some of the most interesting permissions related to privacy of the application:  
+Mobile applications have the potential of collecting massive amount of data from their users. This can be used to increase user experience but also lead to intrusive behaviour. Permissions is a great place to see if something is out of the ordinary. Some of the most interesting permissions related to privacy of the application:  
 
 \begin{itemize}
     \item INTERNET \& ACCESS NETWORK STATE
@@ -6,9 +6,9 @@ Mobile applications' has the potential of collecting massive amount of data from
     \item ACCESS FINE LOCATION \& ACCESS COARSE LOCATION
 \end{itemize}
 
-The networking permissions are obviously necessary. The account permissions are used to authenticate with either Google or Facebook. The most interesting are the location related. When opening the application the user is prompted wether he would allow location tracking when using the app. This setting is permanent and can not be disabled from the application. The user has to navigate to settings. Additionally there should be an option to allow for one session. The location permission does not seem necessary for the application. The only use is related to a map shown on items for sale. As Google Maps is used for this feature it might be a needed permission.
+The networking permissions are obviously necessary. The account permissions are used to authenticate with either Google or Facebook. The most interesting are the location related. When opening the application the user is prompted whether he will allow location tracking when using the app. This setting is persistent and can not be disabled from the application. The user has to disable it in settings. Additionally there should be an option to allow for one session. The location permission does not seem necessary for the application. The only use is related to a map shown on items for sale. As Google Maps is used for this feature it might be a needed permission.
 
-The data collection nature of the application revolves around how users use the application and advertisement. Almost whenever button is pressed a chain of requests are performed. Such a chain can be seen on figure \ref{fig:statistics-chain}. 
+The data collection of the application revolves around how users use the application and advertisement. Almost whenever button is pressed a chain of requests are performed. A chain can be seen on figure \ref{fig:statistics-chain}. 
 
 \begin{figure}[htbp]
     \centering
@@ -26,7 +26,7 @@ An example of the request can be seen on Figure \ref{fig:statistic-request-car}.
     \label{fig:statistic-request-car}
 \end{figure}
 
-These requests send the user's actions to external services. It is seen that the event is sent to Google Analytics and Doubleclick. Doubleclick is an advertisement company owned by Google. This result in targeted advertisements for the user dependent on his behaviour in the application. There is plenty of trackers of the application an overview can be seen on Table \ref{tab:trackers}. 
+These requests send the user's actions to external services. It is seen that the event is sent to Google Analytics and Doubleclick. Doubleclick is an advertisement company owned by Google. This result in targeted advertisements for the user dependent on his behaviour in the application. There is a range of trackers. An overview can be seen on Table \ref{tab:trackers}. 
 
 \begin{table}[]
     \centering

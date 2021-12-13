@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber report"] 1639161685 "report.bcf" "report.bbl" "report" 1639311012
+["biber report"] 1639161685 "report.bcf" "report.bbl" "report" 1639386055
   "misc/references.bib" 1639161466 1094 0c19d5127704313dc63dde0e75db72db ""
-  "report.bcf" 1639311012 107028 f95d8cdc5c22669fc53b426d58428362 "pdflatex"
+  "report.bcf" 1639386055 107028 f95d8cdc5c22669fc53b426d58428362 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1639311011 "/home/mlrosenquist/assignments/au-syssec-e21-mlr-finalProject/report/report.tex" "report.pdf" "report" 1639311012
+["pdflatex"] 1639386053 "/home/mlrosenquist/assignments/au-syssec-e21-mlr-finalProject/report/report.tex" "report.pdf" "report" 1639386055
   "../dynamic-analysis/pictures/MITM-auction-burp.png" 1639161466 31334 0c99b3deed07008ee2b55dcc350c145e ""
   "../dynamic-analysis/pictures/ad-actions.png" 1639161466 6802 c5c9fd30094ca863352762555936cd27 ""
   "../dynamic-analysis/pictures/analytics-request-cars.png" 1639161466 49460 8345b0378172da2ff3fcc05597c482ab ""
@@ -218,17 +218,17 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1605910342 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1627916025 40136 b05acc85e8425979e52682d98a2bcacf ""
   "/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1637103355 363910 a274400926b41b49b9c6ab274b9d3a99 ""
-  "contents/authentication.tex" 1639308647 3085 49b33866784ab19211ac7421600cc713 ""
-  "contents/conclusion.tex" 1639161466 792 fb8ed4ba5b4ea62153e1c98f2b05f333 ""
+  "contents/authentication.tex" 1639386053 3085 49b33866784ab19211ac7421600cc713 ""
+  "contents/conclusion.tex" 1639311064 792 fb8ed4ba5b4ea62153e1c98f2b05f333 ""
   "contents/discussion.tex" 1639311010 3941 26ee91564f3bbe7c00a2da603e3c3c74 ""
   "contents/introduction.tex" 1639223365 3088 169b3373c984d12e3d6f87345c9aad2e ""
   "contents/network-security.tex" 1639307875 5688 978795114d391ec08bdc96c06aa762fe ""
   "contents/privacy.tex" 1639310053 4045 824b81ddb37d651df994d41c2b410b72 ""
   "contents/software-security.tex" 1639306807 7128 69c23b46b1f54f820bdb67dedb80c8df ""
-  "report.aux" 1639311012 9184 9a00e1e488078b00f5f9c3286175dbf0 "pdflatex"
+  "report.aux" 1639386055 9184 9a00e1e488078b00f5f9c3286175dbf0 "pdflatex"
   "report.bbl" 1639161685 4948 730b3a20ce6bcc73f9814e1ac59269dc "biber report"
-  "report.out" 1639311012 1153 3d587446f21f1213a0af626e7c9f5cf9 "pdflatex"
-  "report.run.xml" 1639311012 2324 0e0d3525b564b14dc92b00896d3f5cb9 "pdflatex"
+  "report.out" 1639386055 1153 3d587446f21f1213a0af626e7c9f5cf9 "pdflatex"
+  "report.run.xml" 1639386055 2324 0e0d3525b564b14dc92b00896d3f5cb9 "pdflatex"
   "report.tex" 1639307739 2897 a7d8d25f4b7dff609dcd022767a86bb0 ""
   (generated)
   "report.aux"

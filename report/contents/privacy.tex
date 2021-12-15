@@ -6,9 +6,9 @@ Mobile applications have the potential of collecting massive amount of data from
     \item ACCESS FINE LOCATION \& ACCESS COARSE LOCATION
 \end{itemize}
 
-The networking permissions are obviously necessary. The account permissions are used to authenticate with either Google or Facebook. The most interesting are the location related. When opening the application the user is prompted whether he will allow location tracking when using the app. This setting is persistent and can not be disabled from the application. The user has to disable it in settings. Additionally there should be an option to allow for one session. The location permission does not seem necessary for the application. The only use is related to a map shown on items for sale. As Google Maps is used for this feature it might be a needed permission.
+The networking permissions are obviously necessary. The account permissions are used to authenticate with either Google or Facebook. The most interesting are the location related. When opening the application the user is prompted whether he will allow location tracking when using the app. This setting is persistent and can not be disabled from the application. The user has to disable it in settings. Additionally, there should be an option to allow for one session. The location permission does not seem necessary for the application. The only use is related to a map shown on items for sale. As Google Maps is used for this feature it might be a needed permission.
 
-The data collection of the application revolves around how users use the application and advertisement. Almost whenever button is pressed a chain of requests are performed. A chain can be seen on figure \ref{fig:statistics-chain}. 
+The data collection of the application revolves around how users use the application and advertisement. Almost whenever button is pressed a chain of requests are performed. A chain can be seen on Figure \ref{fig:statistics-chain}. 
 
 \begin{figure}[htbp]
     \centering
@@ -48,4 +48,4 @@ These requests send the user's actions to external services. It is seen that the
     \label{tab:trackers}
 \end{table}
 
-The analytics trackers are used to improve user experience. Looking at metrics regarding user sessions and actions. CrashLytics is used to report crashes and tell the developers the state of the application at the incident. The advertisement trackers are retrieving information from the users behaviour and thus targeting advertisements thereof. If the user authenticates with both Facebook and Google, it is expected that the tracking goes beyond the scope of this application. Meaning the behaviour of the user might be visual in ads he receives on other platforms. Other than that there is no integration to Social Networks.       
+The analytics trackers are used to improve user experience. Looking at metrics regarding user sessions and actions. CrashLytics is used to report crashes and tell the developers the state of the application at the incident. The advertisement trackers are retrieving information from the users behaviour and thus targeting advertisements thereof. If the user authenticates with both Facebook and Google, it is expected that the tracking goes beyond the scope of this application. Meaning the behaviour of the user might be visual in ads he receives on other platforms. Other than that there is no integration to social networks.       

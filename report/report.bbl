@@ -123,6 +123,31 @@
       \verb https://appmattus.medium.com/android-security-certificate-transparency-601c18157c44
       \endverb
     \endentry
+    \entry{log4j}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c734fd5d950ad924cc54013dfda4e956}{%
+           family={SECURELIST},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c734fd5d950ad924cc54013dfda4e956}
+      \strng{fullhash}{c734fd5d950ad924cc54013dfda4e956}
+      \strng{bibnamehash}{c734fd5d950ad924cc54013dfda4e956}
+      \strng{authorbibnamehash}{c734fd5d950ad924cc54013dfda4e956}
+      \strng{authornamehash}{c734fd5d950ad924cc54013dfda4e956}
+      \strng{authorfullhash}{c734fd5d950ad924cc54013dfda4e956}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 19.12.2021)}
+      \field{title}{CVE-2021-44228 vulnerability in Apache Log4j library}
+      \verb{urlraw}
+      \verb https://securelist.com/cve-2021-44228-vulnerability-in-apache-log4j-library/105210/
+      \endverb
+      \verb{url}
+      \verb https://securelist.com/cve-2021-44228-vulnerability-in-apache-log4j-library/105210/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

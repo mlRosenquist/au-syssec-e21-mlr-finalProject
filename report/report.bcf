@@ -2347,7 +2347,8 @@
     <bcf:citekey order="1">avg-webview-explot</bcf:citekey>
     <bcf:citekey order="2">android-certificate-transparency</bcf:citekey>
     <bcf:citekey order="3">android-obfuscation</bcf:citekey>
-    <bcf:citekey order="4">android-sslsocket</bcf:citekey>
+    <bcf:citekey order="4">log4j</bcf:citekey>
+    <bcf:citekey order="5">android-sslsocket</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

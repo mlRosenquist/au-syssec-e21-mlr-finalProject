@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.18)  15 DEC 2021 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.18)  16 DEC 2021 11:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -928,28 +928,18 @@ Package biblatex Info: Reference segment=0 on input line 39.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 39.
 
 (./contents/introduction.tex
-Underfull \hbox (badness 2368) in paragraph at lines 4--5
-\OT1/ptm/m/it/10 Poli-cies\OT1/ptm/m/n/10 , which se-cu-rity prop-er-ties are to be pro-vided.
+Underfull \hbox (badness 3579) in paragraph at lines 12--13
+[]\OT1/ptm/m/n/10 Many se-cu-rity prop-er-ties are ex-pected in a marke-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-) (./contents/software-security.tex [1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+) [1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map): fontmap entry for `pagd8z' already exists, duplicates ignored
 
@@ -1657,98 +1647,95 @@ pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/upd
 }
 
 
-]
-<../static-analysis/pictures/GGApplication_properties.png, id=66, 561.09625pt x 186.6975pt>
+]) (./contents/software-security.tex
+<../static-analysis/pictures/GGApplication_properties.png, id=76, 561.09625pt x 186.6975pt>
 File: ../static-analysis/pictures/GGApplication_properties.png Graphic file (type png)
 <use ../static-analysis/pictures/GGApplication_properties.png>
 Package pdftex.def Info: ../static-analysis/pictures/GGApplication_properties.png  used on input line 8.
 (pdftex.def)             Requested size: 252.0pt x 83.84785pt.
-<../static-analysis/pictures/log_payments.png, id=72, 409.53pt x 85.31876pt>
+<../static-analysis/pictures/log_payments.png, id=82, 409.53pt x 85.31876pt>
 File: ../static-analysis/pictures/log_payments.png Graphic file (type png)
 <use ../static-analysis/pictures/log_payments.png>
 Package pdftex.def Info: ../static-analysis/pictures/log_payments.png  used on input line 19.
 (pdftex.def)             Requested size: 252.0pt x 52.5013pt.
-<../static-analysis/pictures/dibs-javascript.png, id=78, 483.8075pt x 100.375pt>
+<../static-analysis/pictures/dibs-javascript.png, id=88, 483.8075pt x 100.375pt>
 File: ../static-analysis/pictures/dibs-javascript.png Graphic file (type png)
 <use ../static-analysis/pictures/dibs-javascript.png>
 Package pdftex.def Info: ../static-analysis/pictures/dibs-javascript.png  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 52.2826pt.
-<../static-analysis/pictures/zendesk-webview.png, id=80, 446.66875pt x 60.225pt>
+<../static-analysis/pictures/zendesk-webview.png, id=90, 446.66875pt x 60.225pt>
 File: ../static-analysis/pictures/zendesk-webview.png Graphic file (type png)
 <use ../static-analysis/pictures/zendesk-webview.png>
 Package pdftex.def Info: ../static-analysis/pictures/zendesk-webview.png  used on input line 39.
 (pdftex.def)             Requested size: 252.0pt x 33.97755pt.
-<../static-analysis/pictures/ssl-pinning.png, id=82, 838.13126pt x 257.96375pt>
+<../static-analysis/pictures/ssl-pinning.png, id=92, 838.13126pt x 257.96375pt>
 File: ../static-analysis/pictures/ssl-pinning.png Graphic file (type png)
 <use ../static-analysis/pictures/ssl-pinning.png>
 Package pdftex.def Info: ../static-analysis/pictures/ssl-pinning.png  used on input line 48.
 (pdftex.def)             Requested size: 252.0pt x 77.55898pt.
- [2 <../static-analysis/pictures/GGApplication_properties.png> <../static-analysis/pictures/log_payments.png> <../static-analysis/pictures/dibs-javascript.png> <../static-analysis/pictures/zendesk-webview.png> <../static-analysis/pictures/ssl-pinning.png>]
-<../static-analysis/pictures/log-login-request.png, id=110, 378.41376pt x 149.55875pt>
+ [2 <../static-analysis/pictures/GGApplication_properties.png> <../static-analysis/pictures/log_payments.png> <../static-analysis/pictures/dibs-javascript.png> <../static-analysis/pictures/zendesk-webview.png>]
+<../static-analysis/pictures/log-login-request.png, id=119, 378.41376pt x 149.55875pt>
 File: ../static-analysis/pictures/log-login-request.png Graphic file (type png)
 <use ../static-analysis/pictures/log-login-request.png>
 Package pdftex.def Info: ../static-analysis/pictures/log-login-request.png  used on input line 58.
 (pdftex.def)             Requested size: 252.0pt x 99.5968pt.
-<../static-analysis/pictures/gull-prefs-xml.png, id=112, 792.9625pt x 143.53625pt>
+<../static-analysis/pictures/gull-prefs-xml.png, id=121, 792.9625pt x 143.53625pt>
 File: ../static-analysis/pictures/gull-prefs-xml.png Graphic file (type png)
 <use ../static-analysis/pictures/gull-prefs-xml.png>
 Package pdftex.def Info: ../static-analysis/pictures/gull-prefs-xml.png  used on input line 67.
 (pdftex.def)             Requested size: 252.0pt x 45.61494pt.
 ) (./contents/network-security.tex
-<../static-analysis/pictures/sslreport_overview.png, id=117, 899.36pt x 548.0475pt>
+<../static-analysis/pictures/sslreport_overview.png, id=126, 899.36pt x 548.0475pt>
 File: ../static-analysis/pictures/sslreport_overview.png Graphic file (type png)
 <use ../static-analysis/pictures/sslreport_overview.png>
 Package pdftex.def Info: ../static-analysis/pictures/sslreport_overview.png  used on input line 5.
 (pdftex.def)             Requested size: 252.0pt x 153.56096pt.
-<../static-analysis/pictures/retrofit-okkhtp-builder.png, id=119, 722.7pt x 47.17625pt>
+<../static-analysis/pictures/retrofit-okkhtp-builder.png, id=128, 722.7pt x 47.17625pt>
 File: ../static-analysis/pictures/retrofit-okkhtp-builder.png Graphic file (type png)
 <use ../static-analysis/pictures/retrofit-okkhtp-builder.png>
 Package pdftex.def Info: ../static-analysis/pictures/retrofit-okkhtp-builder.png  used on input line 14.
 (pdftex.def)             Requested size: 252.0pt x 16.45001pt.
-<../dynamic-analysis/pictures/http-requests-modules.png, id=128, 289.08pt x 594.22pt>
+ [3 <../static-analysis/pictures/ssl-pinning.png> <../static-analysis/pictures/log-login-request.png> <../static-analysis/pictures/gull-prefs-xml.png> <../static-analysis/pictures/sslreport_overview.png> <../static-analysis/pictures/retrofit-okkhtp-builder.png>]
+<../dynamic-analysis/pictures/http-requests-modules.png, id=158, 289.08pt x 594.22pt>
 File: ../dynamic-analysis/pictures/http-requests-modules.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/http-requests-modules.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/http-requests-modules.png  used on input line 23.
 (pdftex.def)             Requested size: 126.0pt x 259.00043pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../dynamic-analysis/pictures/MITM-auction-burp.png, id=131, 613.29124pt x 226.8475pt>
+<../dynamic-analysis/pictures/MITM-auction-burp.png, id=161, 613.29124pt x 226.8475pt>
 File: ../dynamic-analysis/pictures/MITM-auction-burp.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/MITM-auction-burp.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/MITM-auction-burp.png  used on input line 32.
 (pdftex.def)             Requested size: 252.0pt x 93.2123pt.
-<../dynamic-analysis/pictures/mitm_auction.png, id=132, 484.81125pt x 417.56pt>
+<../dynamic-analysis/pictures/mitm_auction.png, id=162, 484.81125pt x 417.56pt>
 File: ../dynamic-analysis/pictures/mitm_auction.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/mitm_auction.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/mitm_auction.png  used on input line 39.
 (pdftex.def)             Requested size: 126.0pt x 108.51843pt.
-<../dynamic-analysis/pictures/server-client-mitm.png, id=134, 465.74pt x 533.995pt>
+<../dynamic-analysis/pictures/server-client-mitm.png, id=164, 465.74pt x 533.995pt>
 File: ../dynamic-analysis/pictures/server-client-mitm.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/server-client-mitm.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/server-client-mitm.png  used on input line 48.
 (pdftex.def)             Requested size: 126.0pt x 144.46576pt.
-<../dynamic-analysis/pictures/ad-actions.png, id=136, 183.68625pt x 145.54375pt>
+<../dynamic-analysis/pictures/ad-actions.png, id=166, 183.68625pt x 145.54375pt>
 File: ../dynamic-analysis/pictures/ad-actions.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/ad-actions.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/ad-actions.png  used on input line 57.
 (pdftex.def)             Requested size: 126.0pt x 99.83899pt.
-) [3 <../static-analysis/pictures/log-login-request.png> <../static-analysis/pictures/gull-prefs-xml.png> <../static-analysis/pictures/sslreport_overview.png> <../static-analysis/pictures/retrofit-okkhtp-builder.png>] (./contents/authentication.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<../dynamic-analysis/pictures/jwt_decoded.png, id=160, 586.19pt x 406.51875pt>
+) (./contents/authentication.tex [4 <../dynamic-analysis/pictures/http-requests-modules.png> <../dynamic-analysis/pictures/MITM-auction-burp.png> <../dynamic-analysis/pictures/mitm_auction.png> <../dynamic-analysis/pictures/server-client-mitm.png> <../dynamic-analysis/pictures/ad-actions.png>]
+<../dynamic-analysis/pictures/jwt_decoded.png, id=183, 586.19pt x 406.51875pt>
 File: ../dynamic-analysis/pictures/jwt_decoded.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/jwt_decoded.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/jwt_decoded.png  used on input line 7.
 (pdftex.def)             Requested size: 176.39923pt x 122.32874pt.
- [4 <../dynamic-analysis/pictures/http-requests-modules.png> <../dynamic-analysis/pictures/MITM-auction-burp.png> <../dynamic-analysis/pictures/mitm_auction.png> <../dynamic-analysis/pictures/server-client-mitm.png> <../dynamic-analysis/pictures/ad-actions.png>]) (./contents/privacy.tex
-<../static-analysis/pictures/statistics_trackview_chain.png, id=173, 713.66624pt x 71.26625pt>
+) (./contents/privacy.tex
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+<../static-analysis/pictures/statistics_trackview_chain.png, id=185, 713.66624pt x 71.26625pt>
 File: ../static-analysis/pictures/statistics_trackview_chain.png Graphic file (type png)
 <use ../static-analysis/pictures/statistics_trackview_chain.png>
 Package pdftex.def Info: ../static-analysis/pictures/statistics_trackview_chain.png  used on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 25.16429pt.
-<../dynamic-analysis/pictures/analytics-request-cars.png, id=175, 587.19376pt x 246.9225pt>
+<../dynamic-analysis/pictures/analytics-request-cars.png, id=187, 587.19376pt x 246.9225pt>
 File: ../dynamic-analysis/pictures/analytics-request-cars.png Graphic file (type png)
 <use ../dynamic-analysis/pictures/analytics-request-cars.png>
 Package pdftex.def Info: ../dynamic-analysis/pictures/analytics-request-cars.png  used on input line 24.
@@ -1758,7 +1745,7 @@ Package pdftex.def Info: ../dynamic-analysis/pictures/analytics-request-cars.png
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 31.
 
-) [5 <../dynamic-analysis/pictures/jwt_decoded.png> <../static-analysis/pictures/statistics_trackview_chain.png> <../dynamic-analysis/pictures/analytics-request-cars.png>] (./contents/discussion.tex) (./contents/conclusion.tex)
+) [5 <../dynamic-analysis/pictures/jwt_decoded.png> <../static-analysis/pictures/statistics_trackview_chain.png> <../dynamic-analysis/pictures/analytics-request-cars.png>] (./contents/discussion.tex) (./contents/conclusion.tex) [6]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1770,26 +1757,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] (./report.aux)
+[7
+
+] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 3D587446F21F1213A0AF626E7C9F5CF9;1153.
+(rerunfilecheck)             Checksum: 817F3CE696173A9A7050B38222F169C1;1470.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30612 strings out of 478862
- 575568 string characters out of 5858944
- 1371631 words of memory out of 6000000
- 47677 multiletter control sequences out of 15000+600000
+ 30619 strings out of 478862
+ 575664 string characters out of 5858944
+ 1374631 words of memory out of 6000000
+ 47680 multiletter control sequences out of 15000+600000
  443551 words of font info for 101 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 99i,9n,131p,1367b,1381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,9n,131p,1367b,1384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (6 pages, 730476 bytes).
+Output written on report.pdf (7 pages, 732135 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

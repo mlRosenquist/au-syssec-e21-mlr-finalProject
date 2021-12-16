@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber report"] 1639565720 "report.bcf" "report.bbl" "report" 1639566381
+["biber report"] 1639565720 "report.bcf" "report.bbl" "report" 1639651556
   "misc/references.bib" 1639565706 1344 5a7fd3bd796639648e8bf5bb39cde404 ""
-  "report.bcf" 1639566380 107075 b5afee8618f69a655202554ee491a134 "pdflatex"
+  "report.bcf" 1639651556 107075 b5afee8618f69a655202554ee491a134 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1639566379 "/home/mlrosenquist/assignments/au-syssec-e21-mlr-finalProject/report/report.tex" "report.pdf" "report" 1639566381
+["pdflatex"] 1639651555 "/home/mlrosenquist/assignments/au-syssec-e21-mlr-finalProject/report/report.tex" "report.pdf" "report" 1639651556
   "../dynamic-analysis/pictures/MITM-auction-burp.png" 1638875868 31334 0c99b3deed07008ee2b55dcc350c145e ""
   "../dynamic-analysis/pictures/ad-actions.png" 1639055196 6802 c5c9fd30094ca863352762555936cd27 ""
   "../dynamic-analysis/pictures/analytics-request-cars.png" 1639081690 49460 8345b0378172da2ff3fcc05597c482ab ""
@@ -225,14 +225,14 @@
   "contents/authentication.tex" 1639566279 3085 2d6e5cca1dc265de4bacaa3230b4bac8 ""
   "contents/conclusion.tex" 1639158978 792 fb8ed4ba5b4ea62153e1c98f2b05f333 ""
   "contents/discussion.tex" 1639565793 4039 1529b414bdea1ec71e6fc3e6cdb88181 ""
-  "contents/introduction.tex" 1639564320 3087 3014e07e77619a730f17a54dd8bf942f ""
+  "contents/introduction.tex" 1639651554 4300 7bd11a6add90d5ebeae0bf87534dc465 ""
   "contents/network-security.tex" 1639566279 5681 c9cdcd8ffdf7fb03b6af6ac54793eed0 ""
   "contents/privacy.tex" 1639566279 4046 e19fd471562f6b7cc05f071aed1e99e5 ""
   "contents/software-security.tex" 1639566379 7130 5f42c230a1f158f21f4cfb61bd5e6302 ""
-  "report.aux" 1639566380 9296 7c04968f936d41df8940c5b189e272df "pdflatex"
+  "report.aux" 1639651556 9828 56cd438d226019eddb44c500168ee389 "pdflatex"
   "report.bbl" 1639565721 6057 f204b4730f399a08f9db21f4c7d1032d "biber report"
-  "report.out" 1639566380 1153 3d587446f21f1213a0af626e7c9f5cf9 "pdflatex"
-  "report.run.xml" 1639566380 2324 0e0d3525b564b14dc92b00896d3f5cb9 "pdflatex"
+  "report.out" 1639651556 1470 817f3ce696173a9a7050b38222f169c1 "pdflatex"
+  "report.run.xml" 1639651556 2324 0e0d3525b564b14dc92b00896d3f5cb9 "pdflatex"
   "report.tex" 1639566281 2880 1b8395c72f243faa2519726dce68a2f2 ""
   (generated)
   "report.aux"

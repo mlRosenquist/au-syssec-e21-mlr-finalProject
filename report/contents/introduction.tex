@@ -1,20 +1,24 @@
 This report will document a preliminary security analysis of a mobile application. The application will be looked at from four various aspects: \textit{Software Security}, \textit{Network Security}, \textit{Authentication} and \textit{Privacy}. Four areas that is all key in keeping an application secure. The system that is analysed is \textit{GulOgGratis} which is an online marketplace targeting the Danish market. Establishing such a community requires storing a significant amount of data where some will have a sensitive nature. Users create their accounts and publishes an item they want to sell. Others then communicate with the seller and come to an agreement. GulOgGratis integrates with a range of other services such as; NemID, Parcel Services, Analytical Services, Social Platforms and Ad Services. The marketplace can be accessed either as a website or mobile application. The mobile application is both available for iOS and Android. This report will solely focus on the Android application and its dependencies.  
 
-\subsection{Threat Modelling}
- Modelling the threats for the application we look at four key points. \textit{Threat Model},  whom are we protecting against. \textit{Attack Surface}, which parts of the system can be attacked. \textit{Policies}, which security properties are to be provided. \textit{Mechanisms}, how are the security properties provided. The adversaries are competitors looking for a competitive edge, insiders and criminals with malicious intents. Their attack vectors are the application binaries, access to users accounts, network traffic and the data stored in various cloud services. The threat modelling is as follows:\\       
+ Modelling the threats for the application we look at four key points. \textit{Threat Model},  whom are we protecting against. \textit{Attack Surface}, which parts of the system can be attacked. \textit{Policies}, which security properties are to be provided. \textit{Mechanisms}, how are the security properties provided.  
 
+\subsection{Threat Model}
+Various adversaries can have interest in exploiting the application. \textbf{Competitors} wants to achieve insight of the workings of the app. Furthermore, they might attack the system to achieve a competetive edge. \textbf{Criminals} can mount attacks on users' phones for different purposes. Achieving personal information, performing actions on the users behalf or returning misleading information from the server. Malicious \textbf{insiders} can achieve private data from the users and affect their privacy. 
 
-\noindent\textbf{Threat Model:} competitors, insiders, criminals
+\subsection{Attack Surface}
+The adversaries have many attack vectors in such an application. The \textbf{device} is vulnerable if an adversary was to interact with it. An instrumented version could be installed, backups of data can be taken or the application can be used by an adversary. The \textbf{application} binaries is vulnerable in itself to decompilation. This gives adversaries insights in the structure and functionality of the application. The \textbf{network traffic} is a vector that can be used to perform man-in-the-middle attacks in the form of; eavesdropping, data manipulation and denial of service. Thus, an adversary could control all incoming/outgoing traffic between the application and server. This could be realised on public networks. \textbf{Integrations} is a vector for malicious insiders. This could show in over-sharing of data, data loss and data leakage.     
 
-\noindent\textbf{Attack Surface:}
+\subsection{Policies}
+Many security properties are expected in a markeplace application. The most important are \textbf{Data authenticity/confidentiality/integrity, privacy} and \textbf{availability}. Users should not be able to see other users' data that are not publicly available. Furthermore, no outsider should be able to access the private data of the user. It should not be accessible in the application, on the network or where it is stored. Only defined parties should be able to manipulate data. Resulting in the data keeping its \textbf{integrity}. The application nor its integrations should not be intrusive and affect the users \textbf{privacy}. This could show in extensive monitoring or tracking. Lastly, the service should be \textbf{available} when the user expects it to be.      
+
+\subsection{Mechanisms}
+There is several expected mechanisms that should ensure the policies are maintained. Some of them are:
+
 \begin{itemize}
-    \item Application: decompilation, evil version and broken access 
-    \item Network Traffic: man-in-the-middle, eavesdropping, manipulation and dos
-    \item Integrations: over-sharing, data loss and leakage
+    \item \textbf{Code obfuscation}  - Harden the task of understanding the code structure and functionality. 
+    \item \textbf{Access control}  - Proper authentication functionality to protect users data and privacy. 
+    \item \textbf{Secure networking}  - Encrypted communication and measures against man-in-the-middle attacks. 
+    \item \textbf{Use of trusthworthy integrations}  - Lower the chance of insider attacks. 
+    \item \textbf{Proper data collection and permission handling}  - Track the necessary amount of data from users. 
 \end{itemize}
-
-\noindent\textbf{Expected Policies:} data authenticity/confidentiality/integrity, privacy and availability 
-
-\noindent\textbf{Expected Mechanisms:} code obfuscation, access control, secure networking (pinning / certificate transparency), use of trustworthy integrations, permission handling\\
-
-The mentioned policies and mechanisms are what is expected from the application. A plausible attack could be an attacker getting access to an user's account. This could be achieved by investigating decompiled code and then knowing which traffic to eavesdrop when the user tries to authenticate. If the attacker is able to mount such an attack, he is capable of retrieving all data of the user and perform actions on the user's behalf. Another attack could revolve around the user's privacy. Users' actions are likely heavily monitored. As this will be stored in the cloud, it creates a privacy concern for the user, if these actions can be linked to him. The data can be accessed by some insider, and he might be able to see sensitive data such as his location.      
+      
